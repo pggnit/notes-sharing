@@ -41,7 +41,7 @@ nav.notesNav
 .notesNav .navbar-nav li a:hover
 {
   background: #ddd;
-  color: #434343;
+  color: #434344;
   outline : 0;
 }
 .notesNav .navbar-nav li a:active,
