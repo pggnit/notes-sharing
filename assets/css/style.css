@@ -1,0 +1,71 @@
+#uploadBtn
+{
+  padding: 6px 18px;
+      margin: 8px 10px;
+	  background-color: #8ad831;
+    border-color: #fff;
+	color: #fff;
+}
+#headerImage
+{
+  background: url('../image/noteimg-1.jpg');
+  height: 400px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+nav.myNavbar
+{
+margin-bottom: 1px;
+background-color: #77bf13;
+border-color: #77bf13;
+border-radius: 0px;
+}
+nav.myNavbar .navbar-brand
+{
+         color: #fff;
+         font-size: 30px;
+       }
+nav.notesNav
+{
+  background-color: #77bf13;
+    border-color: #77bf13;
+  	border-radius: 0px;
+    margin-top: 1px;
+}
+.notesNav .navbar-nav li a
+{
+  color: #fff;
+}
+.notesNav .navbar-nav li a:hover
+{
+  background: #ddd;
+  color: #434343;
+  outline : 0;
+}
+.notesNav .navbar-nav li a:active,
+.notesNav .navbar-nav li a:focus
+{
+  outline: 0;
+}
+
+#loader
+{
+  display: none;
+  height:100%;
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+  background: black;
+  z-index: 1060;
+}
+
+.loading
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 999;
+}
